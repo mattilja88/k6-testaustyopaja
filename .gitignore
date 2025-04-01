@@ -1,0 +1,43 @@
+# Node.js
+**/node_modules/
+**/npm-debug.log*
+**/yarn-error.log
+**/package-lock.json
+**/yarn.lock
+
+# Environment variables
+**/.env
+**/.env.local
+**/.env.*.local
+
+# React Native & Expo
+**/android/
+**/ios/
+**/build/
+**/dist/
+**/web-build/
+**/coverage/
+
+# Metro & React Native cache
+**/.expo/
+**/.expo-shared/
+**/.vscode/
+**/.watchmanconfig
+**/logs/
+**/.turbo/
+**/.output/
+**/debug.log
+**/.DS_Store
+
+# System files
+**/Thumbs.db
+**/.idea/
+**/.vs/
+
+# SQLite or local DBs
+*.sqlite
+*.sqlite3
+*.db
+
+# k6 results (optional)
+k6-results.json
